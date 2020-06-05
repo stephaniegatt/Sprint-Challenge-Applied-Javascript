@@ -50,28 +50,28 @@ const carousel = () => {
   allImages = [imageOne, imageTwo, imageThree, imageFour]
 
 
-  showDivs(slideIndex);
+  // showDivs(slideIndex);
 
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
+  // function plusDivs(n) {
+  //   showDivs(slideIndex += n);
+  // }
 
-  function showDivs(selectedIndex) {
-    const selectedImage = allImages[selectedIndex];
+  // function showDivs(selectedIndex) {
+  //   const selectedImage = allImages[selectedIndex];
     
-  }
+  // }
 
-  lButton.addEventListener("click", () => {
-    if (imageIndex > 0) {
-      imageIndex--;
-    }  
-  });
+  // lButton.addEventListener("click", () => {
+  //   if (imageIndex > 0) {
+  //     imageIndex--;
+  //   }  
+  // });
 
-  rButton.addEventListener("click", () => {
-    if (imageIndex < 3) {
-      imageIndex++;
-    }
-  })
+  // rButton.addEventListener("click", () => {
+  //   if (imageIndex < 3) {
+  //     imageIndex++;
+  //   }
+  // })
   // debugger
   document.querySelector(".carousel-container").appendChild(carousel)
 }
