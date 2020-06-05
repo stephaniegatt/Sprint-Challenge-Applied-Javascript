@@ -30,15 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
-
+object respresentation of html, can manipulate html: create elements, add content, etc
 
 2. What is an event?
 
+every user interaction with a site is an event. clicks, scrolling, moving mouse, keys
+
 3. What is an event listener?
+
+a function that takes 2 arguments, an event to listen for and the call back (fires when event is triggered)
 
 4. Why would we convert a NodeList into an Array?
 
+bc the nodeList is an html collection not a true array, in order to manipulate the list using forEach or map you have to convert it to a true array 
+
 5. What is a component?
+
+reusable pieces of code, can be used to build elements
 
 ### Git Set up
 
